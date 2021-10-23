@@ -17,3 +17,13 @@ Di seguito riporto la lista dei valori per ogni pezzo:
 4. Torre = 5 
 5. Donna = 9
 6. Re = 500
+
+
+# Tipi di algoritmi di ricerca adottati
+In questo progetto ho adottato diversi tipi di algoritmi di ricerca della mossa migliore. Questi sono:
+1. Minimax
+2. Negamax
+3. Alphabeta pruning
+
+# Note
+Siccome non era richiesta una parte di Machine Learning, ho implementato una sottospecie di Adaptive Minimax in cui il sistema tiene traccia delle sconfitte del computer e cambia algoritmo di ricerca se questo non si rivela essere vincente.
